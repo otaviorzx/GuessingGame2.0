@@ -18,17 +18,14 @@ section {
 }
 
 footer{
-    color: white;
     text-align: center;
     font-style: italic;
-    padding: 20px;
 }
 
 h3{
     font-style: italic;
 }
 
-mark{
-    background-color: rgb(36, 36, 36);
+a{
     color: white;
 }
