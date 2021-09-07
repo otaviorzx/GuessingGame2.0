@@ -1,0 +1,50 @@
+O jogo se consiste em um simples guessing game, no qual agora poderá ser jogado
+em um site, com um arquivo HTML.
+
+HTML:
+* Um parágrafo no rodapé escrito "Ajuda", quando o user clicar nele vai ser
+levado a uma segunda página de manual, em outra guia.
+* Nessa outra página tem uma parte de "cheats", aonde mostra alguns comandos
+para mostrar o número secreto.
+* Também nessa outra página, mostrar meu GitHub.
+* Um input tipo number no qual irá ler o número que o usuario vai digitar
+(mais de uma vez).
+* Um botão de confirmar o número.
+* Um select no qual terá options, e size 10.
+* Uma imagem no canto direito na tela, com uma seta vermelha e outra verde.
+* Botão para recomeçar o jogo.
+
+JS:
+* Gerar o número de 1 a 100 aleatóriamente.
+* Ler o número quando o usúario clicar no botão.
+* Indicar em um parágrafo abaixo da página (na div da section), se o número
+é maior ou menor, e com isso mudará a imagem do lado direito da página.
+* Colocar os números que o usúario digitou em uma option num select, e então
+dizer nessa option se o número foi maior ou menor também.
+* Quando o usúario ganhar o jogo, vai dar parabéns a ele, e então convidar ele
+a ir no meu GitHub.
+* Quando o usúario clicar em recomeçar, caso ele já esteje em uma partida, essa
+partida é reinicializada (apagando todos os dados anterior dessa tal partida).
+soltar um window.alert falando para ele primeiro terminar a partida.
+* Armazenar os dados que o usúario digitou numa array que é iniciada toda
+vez que uma partida começa.
+
+Dados da página 2:
+Regras:
+* Para iniciar a partida, coloque um número e confirme, você perceberá pelas
+imagens e textos se o seu número é maior ou menor.
+* Caso queira reiniciar a partida, clique no botão "reiniciar partida".
+
+Como o jogo funciona?
+* Quando você clicar em "inserir número", automaticamente o jogo inicia criando
+um número aleatório entre 1 a 100.
+* Após isso, o sistema lê se o número que você digitou é maior ou menor que
+o número randomicamente gerado.
+* A imagem da direita do site indica caso o número é maior ou menor.
+* Caso seja menor, uma seta vermelha para baixo é indicada, caso seja maior,
+uma seta verde para cima aparece. Mas caso você não seja bom em reconhecer
+setas, você também pode ler o texto que aparece dentro do quadrado branco, logo
+abaixo.
+
+Esse jogo é livre para qualquer um modificar e incrementar coisas, o seu github é:
+www.github.com/
