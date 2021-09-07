@@ -1,7 +1,11 @@
 var img = document.getElementsByName('img')
 var lista = document.getElementById('Lista')
 let numal = Math.floor(Math.random(1, 100) * 100)
+var p1 = document.getElementById('p1')
 
+function aleatorio(){
+    numal = Math.floor(Math.random(1, 100) * 100)
+}
 
 function rodar(){
     let num1 = document.getElementById('num1')
@@ -36,5 +40,10 @@ function jogo(){
 }
 
 function resetar(){
+    let num1 = document.getElementById('num1')
+    num1.length = 0
+    p1.innerHTML = ''
+    lista.length = 0
+    aleatorio()
     jogo()
 }
