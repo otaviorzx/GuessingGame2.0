@@ -28,7 +28,11 @@ h3{
     font-style: italic;
 }
 
-mark{
-    background-color: rgb(36, 36, 36);
+img{
+    width: 50px;
+    float: right;
+}
+
+a{
     color: white;
 }
