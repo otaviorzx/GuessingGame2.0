@@ -1,9 +1,7 @@
-//var img = document.getElementsByName('img')
 var lista = document.getElementById('Lista')
 let numal = Math.floor(Math.random(1, 100) * 100)
 var p1 = document.getElementById('p1')
 var matriz1 = []
-window.alert(numal)
 
 function aleatorio(){
     numal = Math.floor(Math.random(1, 100) * 100)
